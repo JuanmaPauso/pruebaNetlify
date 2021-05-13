@@ -1,0 +1,36 @@
+/* variables de color */
+
+$colorprimario:green;
+$colorsecundario: red;
+$secondarylight: gold;
+$colorfondo: silver;
+
+/* variables de espaciado */
+
+$spacer-0_25: 4px;
+$spacer-0_5: 8px;
+$spacer-0_75: 12px;
+$spacer-1: 16px;
+$spacer-1_5: 24px;
+$spacer-2: 32px;
+$spacer-3: 48px;
+$spacer-4: 64px;
+$spacer-6: 96px;
+$spacer-8: 128px;
+$spacer-12: 192px;
+$spacer-16: 256px;
+$spacer-24: 384px;
+$spacer-32: 512px;
+$spacer-40: 640px;
+$spacer-48: 768px;
+
+/* variables de grid */
+
+@mixin mediaquery($fondo) {
+    background-color: $fondo;
+}
+
+$maxwidth: 1440px;
+$grid-main: repeat(12, minmax(0, 1fr));
+$grid-gap: 20px;
+$container-padding: 20px;

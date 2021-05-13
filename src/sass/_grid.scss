@@ -1,0 +1,22 @@
+body {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto 1fr auto;
+}
+
+.container {
+    padding-left: $container-padding;
+    padding-right: $container-padding;
+    max-width: $maxwidth;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    background-color: white;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: $grid-main;
+    grid-auto-rows: min-content;
+    grid-gap: 0 $grid-gap;
+}
